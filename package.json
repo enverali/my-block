@@ -1,0 +1,33 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "sample app",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enverali/my-block.git"
+  },
+  "keywords": [
+    "Anwar0998@"
+  ],
+  "author": "Enver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enverali/my-block/issues"
+  },
+  "homepage": "https://github.com/enverali/my-block#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "mongoose": "^5.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "nodemon": "^1.19.1"
+  }
+}
